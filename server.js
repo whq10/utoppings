@@ -132,9 +132,11 @@ handler(req, res);
 });
 
 
-server.listen(8081);
-console.log('Server listenning at localhost:8081');
-
+//server.listen(8081);
+//console.log('Server listenning at localhost:8081');
+server.listen(server_port, server_host, function() {
+    console.log('Listening on port %d', server_port);
+});
 
 
 function  getData(res,url_parts){

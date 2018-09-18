@@ -8,6 +8,9 @@ var http = require('http'),
      var path = require('path');
      var router = require('./router.js');
 
+     var server_port = process.env.YOUR_PORT || process.env.PORT || 80;
+     var server_host = process.env.YOUR_HOST || '0.0.0.0';
+
 //var fileServer = new nStatic.Server('../go');
 
 

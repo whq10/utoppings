@@ -704,8 +704,8 @@
   flex: 0 auto;
   border: 2px solid #333;
   border-radius: 20px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../images/Za-Pizza-storefront-v1x.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../images/Za-Pizza-storefront-v1x.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../images/ustorefront.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../images/ustorefront.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
